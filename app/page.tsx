@@ -2,7 +2,6 @@
 import AddOrEditInquiryModal from "@/components/ui/RefactoredAddOrEdit";
 import InquiriesTable from "@/components/ui/RefactoredInquiriesTable";
 import { Button } from "@chakra-ui/react";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {

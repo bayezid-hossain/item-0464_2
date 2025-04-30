@@ -23,7 +23,7 @@ export const updateInquiry = async (data: InquiryUpdate) => {
 
     const updated: InquiryPublic = {
         ...data,
-        created_at: data.created_at ?? new Date().toISOString(), // fallback if missing
+        created_at: data.created_at ?? new Date().toISOString(),
         updated_at: new Date().toISOString(),
     };
 
